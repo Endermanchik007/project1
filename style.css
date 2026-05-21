@@ -74,3 +74,28 @@ footer{
     padding: 20px;
     margin-top: 30px;
 }
+
+
+@media (max-width:768px){
+
+    .inline-img{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+
+    .text{
+        width:100%;
+    }
+
+    .inline-img img{
+        width:100%;
+        max-width:400px;
+    }
+
+    nav li{
+        float:none;
+        width:100%;
+    }
+
+}
