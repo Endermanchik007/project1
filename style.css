@@ -23,11 +23,11 @@ nav{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
     list-style: none;
 }
-
+    
 nav a{
     display: block;
     padding: 20px 10px;
